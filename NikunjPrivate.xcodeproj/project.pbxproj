@@ -10,7 +10,6 @@
 		26073916287499A6007A00C4 /* NikunjPrivate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2607390C287499A5007A00C4 /* NikunjPrivate.framework */; };
 		2607391B287499A6007A00C4 /* NikunjPrivateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2607391A287499A6007A00C4 /* NikunjPrivateTests.swift */; };
 		2607391D287499A6007A00C4 /* NikunjPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2607390F287499A5007A00C4 /* NikunjPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		266FF75F2875FBD5007C61DF /* NikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266FF75E2875FBD5007C61DF /* NikViewController.swift */; };
 		26E6184F2874B26200031125 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6184E2874B26200031125 /* TestController.swift */; };
 		39CF1449904192DA01E39AEA /* Pods_NikunjPrivate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3193F1555E828FD81EA11BA7 /* Pods_NikunjPrivate.framework */; };
 		7BDB3D784B39AB767ECF8290 /* Pods_NikunjPrivate_NikunjPrivateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF408EE9866C31E36872A0D /* Pods_NikunjPrivate_NikunjPrivateTests.framework */; };
@@ -33,7 +32,6 @@
 		26073915287499A6007A00C4 /* NikunjPrivateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikunjPrivateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2607391A287499A6007A00C4 /* NikunjPrivateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikunjPrivateTests.swift; sourceTree = "<group>"; };
 		2607391C287499A6007A00C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		266FF75E2875FBD5007C61DF /* NikViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikViewController.swift; sourceTree = "<group>"; };
 		26E6184E2874B26200031125 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		3193F1555E828FD81EA11BA7 /* Pods_NikunjPrivate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikunjPrivate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C3B0E447E5147A5096D6EA /* Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig"; path = "Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,7 +85,7 @@
 		2607390E287499A5007A00C4 /* NikunjPrivate */ = {
 			isa = PBXGroup;
 			children = (
-				260739282874A2F3007A00C4 /* Cnt */,
+				26E6184E2874B26200031125 /* TestController.swift */,
 				2607390F287499A5007A00C4 /* NikunjPrivate.h */,
 				26073910287499A5007A00C4 /* Info.plist */,
 			);
@@ -101,15 +99,6 @@
 				2607391C287499A6007A00C4 /* Info.plist */,
 			);
 			path = NikunjPrivateTests;
-			sourceTree = "<group>";
-		};
-		260739282874A2F3007A00C4 /* Cnt */ = {
-			isa = PBXGroup;
-			children = (
-				266FF75E2875FBD5007C61DF /* NikViewController.swift */,
-				26E6184E2874B26200031125 /* TestController.swift */,
-			);
-			path = Cnt;
 			sourceTree = "<group>";
 		};
 		52ECDE57B476E79251E158BD /* Pods */ = {
@@ -308,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E6184F2874B26200031125 /* TestController.swift in Sources */,
-				266FF75F2875FBD5007C61DF /* NikViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
