@@ -1,0 +1,6 @@
+framework module Pods_NikunjPrivate_NikunjPrivateTests {
+  umbrella header "Pods-NikunjPrivate-NikunjPrivateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

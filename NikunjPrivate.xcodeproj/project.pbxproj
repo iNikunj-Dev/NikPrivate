@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		2607391D287499A6007A00C4 /* NikunjPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2607390F287499A5007A00C4 /* NikunjPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2607392A2874A2F3007A00C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260739292874A2F3007A00C4 /* ViewController.swift */; };
 		26E6184F2874B26200031125 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6184E2874B26200031125 /* TestController.swift */; };
+		39CF1449904192DA01E39AEA /* Pods_NikunjPrivate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3193F1555E828FD81EA11BA7 /* Pods_NikunjPrivate.framework */; };
+		7BDB3D784B39AB767ECF8290 /* Pods_NikunjPrivate_NikunjPrivateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF408EE9866C31E36872A0D /* Pods_NikunjPrivate_NikunjPrivateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,12 @@
 		2607391C287499A6007A00C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		260739292874A2F3007A00C4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26E6184E2874B26200031125 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		3193F1555E828FD81EA11BA7 /* Pods_NikunjPrivate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikunjPrivate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C3B0E447E5147A5096D6EA /* Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig"; path = "Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CF408EE9866C31E36872A0D /* Pods_NikunjPrivate_NikunjPrivateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikunjPrivate_NikunjPrivateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B649E108015E69FF7B29A53E /* Pods-NikunjPrivate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikunjPrivate.debug.xcconfig"; path = "Target Support Files/Pods-NikunjPrivate/Pods-NikunjPrivate.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9B09BBA5476CBEDF3EBC6A /* Pods-NikunjPrivate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikunjPrivate.release.xcconfig"; path = "Target Support Files/Pods-NikunjPrivate/Pods-NikunjPrivate.release.xcconfig"; sourceTree = "<group>"; };
+		EBA4BC24366537EA7FA47C5B /* Pods-NikunjPrivate-NikunjPrivateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NikunjPrivate-NikunjPrivateTests.debug.xcconfig"; path = "Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CF1449904192DA01E39AEA /* Pods_NikunjPrivate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26073916287499A6007A00C4 /* NikunjPrivate.framework in Frameworks */,
+				7BDB3D784B39AB767ECF8290 /* Pods_NikunjPrivate_NikunjPrivateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 				2607390E287499A5007A00C4 /* NikunjPrivate */,
 				26073919287499A6007A00C4 /* NikunjPrivateTests */,
 				2607390D287499A5007A00C4 /* Products */,
+				52ECDE57B476E79251E158BD /* Pods */,
+				5F7862A4587D392077EFF29C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +87,7 @@
 		2607390E287499A5007A00C4 /* NikunjPrivate */ = {
 			isa = PBXGroup;
 			children = (
-				260739282874A2F3007A00C4 /* Controller */,
+				260739282874A2F3007A00C4 /* Cnt */,
 				2607390F287499A5007A00C4 /* NikunjPrivate.h */,
 				26073910287499A5007A00C4 /* Info.plist */,
 			);
@@ -91,13 +103,33 @@
 			path = NikunjPrivateTests;
 			sourceTree = "<group>";
 		};
-		260739282874A2F3007A00C4 /* Controller */ = {
+		260739282874A2F3007A00C4 /* Cnt */ = {
 			isa = PBXGroup;
 			children = (
 				26E6184E2874B26200031125 /* TestController.swift */,
 				260739292874A2F3007A00C4 /* ViewController.swift */,
 			);
-			path = Controller;
+			path = Cnt;
+			sourceTree = "<group>";
+		};
+		52ECDE57B476E79251E158BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B649E108015E69FF7B29A53E /* Pods-NikunjPrivate.debug.xcconfig */,
+				DC9B09BBA5476CBEDF3EBC6A /* Pods-NikunjPrivate.release.xcconfig */,
+				EBA4BC24366537EA7FA47C5B /* Pods-NikunjPrivate-NikunjPrivateTests.debug.xcconfig */,
+				56C3B0E447E5147A5096D6EA /* Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F7862A4587D392077EFF29C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3193F1555E828FD81EA11BA7 /* Pods_NikunjPrivate.framework */,
+				8CF408EE9866C31E36872A0D /* Pods_NikunjPrivate_NikunjPrivateTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26073920287499A6007A00C4 /* Build configuration list for PBXNativeTarget "NikunjPrivate" */;
 			buildPhases = (
+				023F21960B86D84424C1AEDF /* [CP] Check Pods Manifest.lock */,
 				26073907287499A5007A00C4 /* Headers */,
 				26073908287499A5007A00C4 /* Sources */,
 				26073909287499A5007A00C4 /* Frameworks */,
@@ -136,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26073923287499A6007A00C4 /* Build configuration list for PBXNativeTarget "NikunjPrivateTests" */;
 			buildPhases = (
+				ED5D43F633A1CF7D8446D9B8 /* [CP] Check Pods Manifest.lock */,
 				26073911287499A6007A00C4 /* Sources */,
 				26073912287499A6007A00C4 /* Frameworks */,
 				26073913287499A6007A00C4 /* Resources */,
+				52C13D3651E753F0D5BBA5D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +237,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023F21960B86D84424C1AEDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikunjPrivate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C13D3651E753F0D5BBA5D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NikunjPrivate-NikunjPrivateTests/Pods-NikunjPrivate-NikunjPrivateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5D43F633A1CF7D8446D9B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NikunjPrivate-NikunjPrivateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26073908287499A5007A00C4 /* Sources */ = {
@@ -284,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -342,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,6 +455,7 @@
 		};
 		26073921287499A6007A00C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B649E108015E69FF7B29A53E /* Pods-NikunjPrivate.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,6 +464,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NikunjPrivate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +480,7 @@
 		};
 		26073922287499A6007A00C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9B09BBA5476CBEDF3EBC6A /* Pods-NikunjPrivate.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +489,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NikunjPrivate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,6 +505,7 @@
 		};
 		26073924287499A6007A00C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA4BC24366537EA7FA47C5B /* Pods-NikunjPrivate-NikunjPrivateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +524,7 @@
 		};
 		26073925287499A6007A00C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C3B0E447E5147A5096D6EA /* Pods-NikunjPrivate-NikunjPrivateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

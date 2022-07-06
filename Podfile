@@ -4,8 +4,13 @@
 target 'NikunjPrivate' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  
+  source 'https://github.com/CocoaPods/Specs.git'
+  source 'https://github.com/iNikunj-Dev/NikPrivate.git'
 
   # Pods for NikunjPrivate
+	pod 'IQKeyboardManagerSwift', '6.3.0'
+  pod 'NikunjPrivate'
 
   target 'NikunjPrivateTests' do
     # Pods for testing

@@ -14,10 +14,12 @@ Pod::Spec.new do |spec|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-
+  spec.platform = :ios
+  spec.ios.deployment_target = '10.0'
   spec.name         = "NikunjPrivate"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of NikunjPrivate."
+  spec.summary      = "It is written into swift language & i keep improve performance."
+  spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -78,7 +80,10 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iNikunj-Dev/NikPrivate.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/iNikunj-Dev/NikPrivate.git", :tag => "0.0.1" }
+  
+  spec.dependency 'IQKeyboardManagerSwift', '6.3.0'
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
