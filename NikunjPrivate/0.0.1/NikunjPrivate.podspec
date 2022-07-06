@@ -81,9 +81,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/iNikunj-Dev/NikPrivate.git", :tag => "0.0.1" }
-  
-  spec.dependency 'IQKeyboardManagerSwift', '6.3.0'
-
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
