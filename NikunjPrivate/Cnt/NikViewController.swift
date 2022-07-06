@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NikViewController: UIViewController {
     var timer = Timer()
     let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
 
